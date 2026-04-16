@@ -7,7 +7,7 @@ provider "google" {
 
 terraform {
   backend "gcs" {
-    bucket  = "<YOUR BUCKET ID HERE>"
+    bucket  = "tf-remote-state-student_01_b3c5e6ecdeb6-24713-9522"
     prefix  = "terraform/state/lab01" 
   }
 }
